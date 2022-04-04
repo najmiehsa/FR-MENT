@@ -1,1 +1,74 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1rem;
+    margin-right: 3rem;
+    justify-content: center;
+}
+
+.block {
+    font-family: "Inter";
+    color: white;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    margin: 2em;
+
+}
+
+.stats {
+    display: flex;
+    background-color: coral;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.stat-num {
+    padding: 0.5rem;
+}
+
+.stat-block {
+    padding: 15px;
+    background-color: brown;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 700;
+}
+
+img {
+    mix-blend-mode: multiply;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-part {
+    background-color: hsl(277, 64%, 61%);
+
+}
+
+
+.mobile-img {
+    display: none;
+}
