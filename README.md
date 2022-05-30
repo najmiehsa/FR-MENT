@@ -1,3 +1,3 @@
 # FR-MENT
-Daily Practice Sets
+Daily Practice Sets <br>
 Developing Muscle Memory with multiple repetition.
