@@ -1,1 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
 
+}
+
+body {
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: hsl(244, 38%, 16%);
+    margin: 9rem 9rem 9rem 9rem;
+}
+
+.image::before {
+    width: 100%;
+    content: "";
+    background: hsl(277, 64%, 61%);
+    opacity: 0.7;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    width: 400;
+    height: 600px;
+    background: url("other files/image-header-desktop.jpg") no-repeat #2525aa;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.color-overlay {
+    position: absolute;
+
+}
+
+.heading{
+    font-size: 24px;
+}
+
+.text {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-family: Inter;
+}
+
+.p-text {
+    font-family: 'Lexend Deca';
+    font-size: 22px;
+    font-weight: 400;
+    padding: 3rem;
+}
+
+.new-numbers {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    font-family: Inter;
+    font-weight: 400;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.mini-texts {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 2em;
+    padding: 20px;
+}
